@@ -1,0 +1,5 @@
+ String str = "GeeksforGeeks";
+        StringBuilder bs = new StringBuilder();
+        bs.append(str);
+        bs = bs.reverse();
+        System.out.println(bs);
