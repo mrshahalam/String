@@ -1,0 +1,22 @@
+package com.codewithshah;
+import java.util.*;
+
+public class third {
+    public  static  boolean rotate(String str, String str2)
+    {
+        return (str.length()==str2.length()) && (str+str2).indexOf(str2)!=-1;
+    }
+
+    public static void main(String[] args)
+    {
+        String str1 = "AACD";
+        String str2 = "ADA";
+        if(rotate(str1,str2))
+            System.out.println("Strings are rotational");
+        else
+            System.out.println("String are non rotational");
+
+
+
+    }
+}
