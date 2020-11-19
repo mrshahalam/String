@@ -1,0 +1,4 @@
+String str ="shahalam";
+StringBuffer bs = new StringBuffer(str);
+bs.reverse();
+System.out.print(str);
